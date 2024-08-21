@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: burlywood;
+}
+.container
+{
+    width: 100%;
+    /*background-color:aquamarine;*/
+}   
+#herosection img
+{
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ingredients
+{
+    width: 25%;
+    background-color: chocolate;
+    box-shadow: 3px 3px 4px rgba(0,0,0.4);
+    margin: 30px auto;
+    border-radius: 50px;
+}
+.ingredients h1
+{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10px;
+    color:rgb(233, 188, 120);
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+}
+.dough h2
+{
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10px;
+    color:rgb(241, 146, 3);
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+}
+.list
+{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family:cursive;
+    padding: 30px;
+    line-height: 1.5;
+    color: rgba(85, 47, 3, 0.692);
+}

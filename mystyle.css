@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    background-color:  rgb(218, 175, 119);
+}
+.navBar
+{
+    background-color: rgb(247, 241, 231);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.flwLogo, .mainMenu, .btnSignUp
+{
+    display: inline;
+    margin: auto;
+}
+.flwLogo img
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.mainMenu li
+{
+    display: inline;
+}
+.mainMenu li a{
+    text-decoration: none;
+    margin-left: 40px;
+    color:rgba(5, 4, 0, 0.726);
+    font-size: 16px;
+    font-weight: 600;
+}
+.mainMenu li a:hover{
+    color: rgb(255, 128, 0);
+}
+.btnSignUp button
+{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.btnSignUp button:hover{
+    color: whitesmoke;
+    background-color: rgb(253, 144, 2);
+}
+#herosection img
+{
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.food
+{
+    width: 35%;
+    background-color: chocolate;
+    box-shadow: 3px 3px 4px rgba(0,0,0.4);
+    margin: 30px auto;
+    border-radius: 50px;
+}
+.food h1
+{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10px;
+    color:rgb(233, 188, 120);
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+}
+.table
+{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    line-height: 1.5;
+    color: rgba(85, 47, 3, 0.692);
+}
+/*.table a{
+    color: rgba(85, 47, 3, 0.692);
+}*/
+.pizza h1
+{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10px;
+    color:rgb(245, 148, 3);
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+}
+/*.pizza a{
+    color: rgb(245, 148, 3);
+}*/
+.pizza .pizzaimg 
+{
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(223, 147, 6);
+}
+.pizza .pizzaimg img
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.pizza .pizzaimg img:hover
+{
+    background-color: rgb(199, 135, 38);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+}
+.ramen h1
+{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10px;
+    color:rgb(245, 148, 3);
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+}
+/*.ramen a{
+    color: rgb(245, 148, 3);
+}*/
+.ramen .ramenimg 
+{
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(223, 147, 6);
+}
+.ramen .ramenimg img
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.ramen .ramenimg img:hover
+{
+    background-color: rgb(199, 135, 38);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+}
+.burger h1
+{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10px;
+    color:rgb(245, 148, 3);
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+}
+/*.burger a{
+    color: rgb(245, 148, 3);
+}*/
+.burger .burgerimg 
+{
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(223, 147, 6);
+}
+.burger .burgerimg img
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.burger .burgerimg img:hover
+{
+    background-color: rgb(199, 135, 38);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+}
+.moussaka h1
+{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10px;
+    color:rgb(245, 148, 3);
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+}
+/*.moussaka a{
+    color: rgb(245, 148, 3);
+}*/
+.moussaka .moussakaimg 
+{
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(223, 147, 6);
+}
+.moussaka .moussakaimg img
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.moussaka .moussakaimg img:hover
+{
+    background-color: rgb(199, 135, 38);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+}
+.sajji h1
+{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10px;
+    color:rgb(245, 148, 3);
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+}
+/*.sajji a{
+    color: rgb(245, 148, 3);
+}*/
+.sajji .sajjiimg 
+{
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(223, 147, 6);
+}
+.sajji .sajjiimg img
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.sajji .sajjiimg img:hover
+{
+    background-color: rgb(199, 135, 38);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+}
+.orderus{
+    width: 60%;
+    margin: 30px 250px;
+}
+.orderus h1{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10px;
+    color:rgb(245, 148, 3);
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+}
+.orderus form{
+    background-color: rgb(235, 174, 9);
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 30px;
+}
+.orderus form input
+{
+    padding: 8px 20px;
+    width: 95%;
+    padding: 20px auto;
+    margin: 10px 0;
+    color:darkorange;
+}
+.foodservices h1{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10px;
+    color:rgb(245, 148, 3);
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+}
+footer
+{
+    background-color: rgb(255, 166, 0);
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+footer .mainMenu{
+    margin-left: 200px;
+}
+footer .footerpara
+{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    color: rgb(255, 255, 254);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flwscroll{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 20px;
+    background-color:rgb(255, 228, 155);
+}
+.flwscroll img{
+    width: 270px;
+    height: 270px;
+    border: 5px solid rgb(255, 136, 0);
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.flwscroll img:hover{
+    transform: scale(1.1);
+    transition: all 0.3 ease-in-out;
+}
